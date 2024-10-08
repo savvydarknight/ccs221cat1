@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.heading {
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.heading h1 {
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    outline: 1px solid #000;
+}
+h2 {
+    position: relative;
+    text-decoration: underline;
+    text-align: center;
+    top: 3rem;
+    color: blueviolet;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+.ccs {
+    margin: 4rem 0 0 0;
+    padding: 10px;
+}
+.ccs a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+}
+.ccs p {
+    padding: 0 1rem 0 1rem;
+}
+.countries {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.names {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.names a {
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: text;
+}
+.order {
+    display: flex;
+    margin: 20px 0 0 0;
+    justify-content: center;
+}
+.order p {
+    background: rgba(137, 43, 226, 0.497);
+    padding: 10px;
+    border-radius: 20px;
+    outline: 1px solid #000;
+}
+.designed {
+    margin-top: 1rem;
+}
+.designed p {
+    text-align: center;
+}
+.designed p a {
+    text-decoration: none;
+    color: #000;
+}
